@@ -1,10 +1,14 @@
-
+import Navigation from './components/Navigation.jsx'
+import HomePage from './components/HomePage.jsx';
 
 function App() {
   return (
-    <div className="bg-orange-400">
-     <h1>Test</h1>
-    </div>
+    <>
+    <div>
+     <Navigation />
+     <HomePage />
+     </div>
+    </>
   );
 }
 
