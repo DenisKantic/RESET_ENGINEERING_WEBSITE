@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation.jsx'
 import HomePage from './components/HomePage.jsx';
 import AboutUs from './components/AboutUs.jsx';
+import Products from './components/Products.jsx'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      <Navigation />
      <HomePage />
      <AboutUs />
+     <Products />
      </div>
     </>
   );
