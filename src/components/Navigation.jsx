@@ -13,7 +13,7 @@ const HomePage = () => {
            <ul className='flex flex-row'>
             <li className='mr-2'>Pocetna</li>
             <li className='mr-2'>O nama</li>
-            <li className='mr-2'>Nasi proizvodi</li>
+            <li className='mr-2'>Usluge</li>
             <li className='mr-2'>Kontakt</li>
            </ul>
         </div>

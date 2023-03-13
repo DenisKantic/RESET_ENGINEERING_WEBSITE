@@ -25,6 +25,25 @@ const Products = () => {
           
           </div>
 
+          <div className='flex justify-between mt-10'>
+           {/*container*/}
+           <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
+           <h1 className='text-4xl mb-4'>Iskustvo</h1>
+           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          </div>
+
+          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
+           <h1 className='text-4xl mb-4'>Iskustvo</h1>
+           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          </div>
+          
+          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
+           <h1 className='text-4xl mb-4'>Iskustvo</h1>
+           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          </div>
+          </div>
+          
+
         </div>
     </div>
   )

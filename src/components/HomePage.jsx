@@ -1,38 +1,22 @@
 import React from 'react'
+import image from './assets/pattern_react.png';
 
 const HomePage = () => {
   return (
-    <div className='w-full h-[100vh]'>
-        <div className='mx-auto w-[90%] h-[100vh] flex items-center justify-start h-screen'>
-            <div className='w-full h-[70vh] p-5 flex items-center justify-center flex-col bg-pink-400'>
-            <h1 className='text-[70px]'>RESET INŽINJERING</h1>
-            <p className='text-2xl'>Dobrodosli u firmu Reset Inzinjering u kojoj rade iskljucivo osobe sa invaliditetom!</p>
-            <p className='text-2xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, ad.</p>
-            
-              {/*container*/}
-              <div className='flex flex-row justify-around bg-red-400 w-full mt-10'>
-          <div className='w-[300px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
-          </div> 
-
-            {/*container*/}
-            <div className='w-[300px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
-          </div>
-
-            {/*container*/}
-            <div className='w-[300px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
-          </div>
-          </div>
-
-
-            <div className='flex flex-row mt-4'>
-                <button className='bg-orange-400 mr-4 rounded-xl p-2 text-xl'>Ko smo mi?</button>
-                <button className='bg-orange-400 p-2 rounded-xl text-xl'>Nase usluge</button>
+    <div className='w-full h-[100vh] bg-center bg-cover top-0' 
+    style={{
+      backgroundImage:
+      `url(${image})`}}>
+        <div className='mx-auto w-[90%] flex items-center justify-start h-screen bg-center bg-cover'>
+            <div className='mx-auto w-[90%] h-[70vh] p-5 flex items-start justify-center flex-col'>
+            <h1 className='text-6xl text-[#334155]'>RESET INŽINJERING</h1>
+            <div className='w-[50%]'>
+            <p className='text-xl text-[#334155]'>Dobrodosli u firmu Reset Inzinjering u kojoj rade iskljucivo osobe sa invaliditetom
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, est.!</p>
+            </div>
+            <div className='flex flex-row mt-10'>
+                <button className='bg-[#0ea5e9] text-white mr-4 rounded-md p-3 w-[150px] text-lg'>KO SMO MI?</button>
+                <button className='bg-[#334155] text-white p-3 rounded-md w-[150px] text-lg'>NASE USLUGE</button>
             </div>
             </div>
         </div>
