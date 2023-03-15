@@ -1,10 +1,18 @@
-
+import Navigation from './components/Navigation.jsx'
+import HomePage from './components/HomePage.jsx';
+import AboutUs from './components/AboutUs.jsx';
+import Products from './components/Products.jsx'
 
 function App() {
   return (
-    <div className="bg-orange-400">
-     <h1>Test</h1>
-    </div>
+    <>
+    <div>
+     <Navigation />
+     <HomePage />
+     <AboutUs />
+     <Products />
+     </div>
+    </>
   );
 }
 
