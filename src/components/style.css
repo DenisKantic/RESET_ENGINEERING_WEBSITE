@@ -1,0 +1,6 @@
+#backgroundPicture{
+    background-image: url('./assets/pattern_react.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+}

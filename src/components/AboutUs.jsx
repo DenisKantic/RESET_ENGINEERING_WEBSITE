@@ -1,41 +1,50 @@
 import React from 'react'
-import {AiFillStar} from 'react-icons/ai';
+import './style.css';
 
 const AboutUs = () => {
   return (
-    <div className='w-full h-[100vh]'>
-        <div className='mx-auto w-[85%] h-[100vh] bg-green-400 p-4'>
-        <div className='w-[50%] bg-gray-400 mt-[100px]'>
-        <h1 className='text-[50px]'>O nama</h1>
-        <p className='text-lg mt-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quos delectus nisi harum asperiores Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum harum dolores suscipit quas possimus fugiat, laudantium aspernatur unde minima ullam non omnis ratione eos laboriosam officiis asperiores ducimus maxime autem. atque perferendis eligendi! Perferendis vero, esse at veritatis quis a quibusdam dolor sint accusantium recusandae eum, est optio fugiat nesciunt reiciendis tempore id! Similique, explicabo maiores!</p>
+    <div className='w-full h-[80vh] bg-[#f1f5f9]'>
+        <div className='mx-auto w-[80%] h-[100vh] p-4 flex flex-row justify-between'>
+      
+        {/* left side */}
+        <div className='w-[35%] bg-red-400 h-[50vh]'>
+          <div className='h-[25vh] bg-[#0ea5e9]' id='backgroundStyle'></div>
         </div>
 
-        {/* center part, our goals */}
-        <div className='mt-[120px] flex justify-center flex-col'>
-        <h1 className='text-4xl mx-auto'>nase prednosti</h1>
 
-        {/* three items */}
-        <div className='flex justify-between mt-10'>
-          {/*container*/}
-          <div className='w-[400px] h-[300px] bg-gray-400 p-8'>
-           <AiFillStar size={60} className='mb-2'></AiFillStar>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+        {/* right side */}
+        <div className='w-[50%] h-[500px] mt-10'>
+        <h1 className='text-5xl text-center'>O nama</h1>
+
+        {/* blocks of text */}
+        <div className='flex justify-between'>
+
+          {/* left side text */}
+          <div>
+          <div className='w-[80%] mt-10'>
+            <h1 className='text-3xl'>Ko smo mi?</h1>
+            <p className='mt-3'>RE-SET INŽINJERING je kompanija koja zapošljava isključivo osobe sa invaliditetom, kako bi živjele što lagodniji život</p>
+          </div>
+          <div className='w-[80%] mt-10'>
+            <h1 className='text-3xl'>Naša misija?</h1>
+            <p className='mt-3'>Pružiti priliku mladim osobama sa invaliditetom da pridonose zajednici i da se osjećaju korisnim. </p>
+          </div>
           </div>
 
-          <div className='w-[400px] h-[300px] bg-gray-400 p-8'>
-           <AiFillStar size={70} className='mb-2'></AiFillStar>
-           <h1 className='text-4xl mb-4'>Fleksibilnost</h1>
-           <p>Nudimo fleksibilnost cijene,velika kvaliteta za pristojan novac. Sa nama je sve stvar dogovora,nudimo kvalitet a ne kvantitet.</p>
+          {/* right side of the text */}
+          <div className='mt-10'>
+          <div className='w-[80%] mt-10'>
+            <h1 className='text-3xl'>Naše usluge?</h1>
+            <p className='mt-3'>Nudimo razne usluge kao što su: izrade vizit kartica, privjesaka, printa na majice, šolje, personalizirane čestitke i mnoštvo toga.</p>
           </div>
-
-          <div className='w-[400px] h-[300px] bg-gray-400 p-8'>
-           <AiFillStar size={70} className='mb-2'></AiFillStar>
-           <h1 className='text-4xl mb-4'>Kreativne Ideje</h1>
-           <p>Kreativnost oblikuje naš rad kreativne ideje najjbolje ideje</p>
+          <div className='w-[80%] mt-10'>
+            <h1 className='text-3xl'>Zašto nas izabrati?</h1>
+            <p className='mt-3'>Zato jer nudimo najbolje cijene i najbolju kvalitetu na cijelom tržištu. Ujedno podržavate i udruženje "RE-SET", koje je i osnovalo ovu kompaniju.</p>
           </div>
+          </div>
+          
         </div>
-
+        
         </div>
 
         </div>

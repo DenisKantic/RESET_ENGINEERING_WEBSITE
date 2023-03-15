@@ -2,11 +2,13 @@ import React from 'react'
 import image from './assets/pattern_react.png';
 
 const HomePage = () => {
+
+  { /* style={{
+    backgroundImage:
+  `url(${image})`} */}
   return (
-    <div className='w-full h-[100vh] bg-center bg-cover top-0' 
-    style={{
-      backgroundImage:
-      `url(${image})`}}>
+    <div className='w-full h-[100vh] bg-center bg-cover top-0' id="backgroundPicture">
+
         <div className='mx-auto w-[90%] flex items-center justify-start h-screen bg-center bg-cover'>
             <div className='mx-auto w-[90%] h-[70vh] p-5 flex items-start justify-center flex-col'>
             <h1 className='text-6xl text-[#334155]'>RESET INŽINJERING</h1>
