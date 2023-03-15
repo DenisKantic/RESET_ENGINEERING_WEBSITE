@@ -3,11 +3,11 @@ import './style.css';
 
 const AboutUs = () => {
   return (
-    <div className='w-full h-[80vh] bg-[#f1f5f9]'>
-        <div className='mx-auto w-[80%] h-[100vh] p-4 flex flex-row justify-between'>
+    <div className='w-full h-[70vh] bg-[#f1f5f9]'>
+        <div className='mx-auto w-[80%] h-[70vh] bg- p-4 flex items-center flex-row justify-between'>
       
         {/* left side */}
-        <div className='w-[35%] bg-red-400 h-[50vh]'>
+        <div className='w-[35%] bg-red-400 h-[50vh] mt-[-100px]'>
           <div className='h-[25vh] bg-[#0ea5e9]' id='backgroundStyle'></div>
         </div>
 

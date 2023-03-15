@@ -1,11 +1,8 @@
 import React from 'react'
-import image from './assets/pattern_react.png';
+
 
 const HomePage = () => {
 
-  { /* style={{
-    backgroundImage:
-  `url(${image})`} */}
   return (
     <div className='w-full h-[100vh] bg-center bg-cover top-0' id="backgroundPicture">
 

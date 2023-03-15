@@ -1,45 +1,81 @@
 import React from 'react'
+import './style.css';
 
 const Products = () => {
   return (
-    <div className='w-full h-[100vh]'>
-        <div className='mx-auto w-[85%] h-[100vh] bg-gray-400 p-4'>
-            <h1 className='text-center text-4xl mt-10'>Nasi proizvodi</h1>
+    <div className='w-full h-[130vh] bg-[#f1f5f9]'>
+        <div className='mx-auto w-[80%] h-[100vh] p-4'>
+            <h1 className='text-center text-4xl mt-10'>Naši proizvodi</h1>
 
-            <div className='flex justify-between mt-10'>
+            <div className='flex justify-between mt-20'>
           {/*container*/}
-          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          <div>
+          <div className='w-[400px] h-[300px] p-8 rounded-t-xl' id="majice">
+          </div>
+           <div className='w-[400px] h-[150px] bg-[#e2e6ea] p-4'>
+            <h1 className='text-2xl'>Print na majice</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
 
-          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          <div>
+          <div className='w-[400px] h-[300px] p-8' id='vizitke'>
+          </div>
+           
+           <div className='w-[400px] h-[150px] bg-[#e2e6ea] p-4'>
+           <h1 className='text-2xl'>Vizit kartice</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
           
-          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          <div>
+          <div className='w-[400px] h-[300px] p-8' id='solje'>
+          </div>
+           
+           <div className='w-[400px] h-[150px] bg-[#e2e6ea] p-4'>
+           <h1 className='text-2xl'>Personalne solje</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
           
           </div>
 
-          <div className='flex justify-between mt-10'>
+          <div className='flex justify-between mt-[100px]'>
            {/*container*/}
-           <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+           <div>
+          <div className='w-[400px] h-[300px] p-8' id='solje'>
+          </div>
+           
+           <div className='w-[400px] h-[150px] bg-[#e2e6ea] p-4'>
+           <h1 className='text-2xl'>Print na majice</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
 
-          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          <div>
+          <div className='w-[400px] h-[300px] p-8' id='solje'>
+          </div>
+           
+           <div className='w-[400px] h-[150px] bg-[#e2e6ea] p-4'>
+           <h1 className='text-2xl'>Print na majice</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
           
-          <div className='w-[400px] h-[300px] bg-orange-400 p-8'>
-           <h1 className='text-4xl mb-4'>Iskustvo</h1>
-           <p>RE-SET INŽINJERING iako nova kompanija posjeduje ljude sa talentom i iskustvom.Naši radovi govore sami za sebe.</p>
+          <div>
+          <div className='w-[400px] h-[300px] p-8' id='solje'>
+          </div>
+           
+           <div className='w-[400px] h-[150px] bg-gray-400 p-4'>
+           <h1 className='text-2xl'>Print na majice</h1>
+            <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-sm mt-2'>Cijene vec od: 12 KM</p>
+           </div>
           </div>
           </div>
           

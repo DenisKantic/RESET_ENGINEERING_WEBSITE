@@ -4,3 +4,21 @@
     background-repeat: no-repeat;
     background-position: right;
 }
+
+#majice{
+    background-image: url('./assets/majica1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#vizitke{
+    background-image: url('./assets/Vizitka-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#solje{
+    background-image: url('./assets/solja.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
