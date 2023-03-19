@@ -20,7 +20,6 @@ const OtherServices = () => {
     scrollbar={{ draggable: true }}
     className='h-[80vh] w-full'>
       {data.map(item =>{
-        console.log(item.image)
         return <SwiperSlide key={item.id} 
         className="w-full bg-cover bg-center h-screen" style={{backgroundImage: `url(${item.image})`}}>
           <div>
