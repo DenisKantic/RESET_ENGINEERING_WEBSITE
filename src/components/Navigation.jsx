@@ -11,9 +11,9 @@ const HomePage = () => {
         <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex md:w-[100px]'>
         
-        <AiOutlineMenu className='mr-2 cursor-pointer' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
+        <AiOutlineMenu className='mr-2 cursor-pointer md:hidden' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
         <h1 className='xss: ml-5 text-xl md:hidden'>Reset Inzinjering</h1>
-        <h1 className='xss: hidden xs:fixed'>Reset</h1>
+        <h1 className='xss: hidden xs:flex'>Reset</h1>
         <div className={ nav ? 'bg-black/80 w-full fixed h-screen z-10 top-0 left-0 duration-300' : 'fixed'}>
         <div className={nav ? 'bg-white w-[300px] fixed top-0 left-0 z-10 h-screen duration-300' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
         <AiOutlineClose className='absolute top-4 right-4 cursor-pointer' 
