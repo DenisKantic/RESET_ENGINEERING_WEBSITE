@@ -1,5 +1,4 @@
 import React from 'react'
-import backImage from './assets/pattern_react.png'
 
 
 const HomePage = () => {
