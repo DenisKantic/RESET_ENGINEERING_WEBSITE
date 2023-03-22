@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 
 const OtherServices = () => {
   return (
-    <div className='w-full h-screen bg-[#f1f5f9]'>
+    <div className='w-full h-auto bg-[#f1f5f9]'>
       <h1 className='text-center text-4xl p-10'>Nase ostale usluge</h1>
 
     <Swiper 
@@ -20,7 +20,6 @@ const OtherServices = () => {
     scrollbar={{ draggable: true }}
     className='h-[80vh] w-full'>
       {data.map(item =>{
-        console.log(item.image)
         return <SwiperSlide key={item.id} 
         className="w-full bg-cover bg-center h-screen" style={{backgroundImage: `url(${item.image})`}}>
           <div>
@@ -30,6 +29,9 @@ const OtherServices = () => {
           </SwiperSlide>
       })}
     </Swiper>
+
+    <h1 className='text-center p-10 text-2xl'>Imate nesto drugo na umu? Kontaktirajte nas i ponudit cemo Vam najbolje rjesenje. <br />
+    Za sve nase buduce klijente, nudimo besplatne uzorke, kako bi se uvjerili u nas kvalitet!</h1>
       </div>
   )
 }

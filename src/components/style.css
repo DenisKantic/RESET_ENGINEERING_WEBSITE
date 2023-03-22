@@ -5,6 +5,12 @@
     background-position: right;
 }
 
+@media only screen and (min-width: 280px) and (max-width: 430px) {
+    #backgroundPicture{
+        background-image: none;
+    }
+}
+
 #majice{
     background-image: url('./assets/majica1.jpg');
     background-repeat: no-repeat;
@@ -12,13 +18,32 @@
 }
 
 #vizitke{
-    background-image: url('./assets/Vizitka-1.jpg');
+    background-image: url('./assets/vizitka2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #solje{
     background-image: url('./assets/solja.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#naljepnice{
+    background-image: url('./assets/naljepnice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#letak{
+    background-image: url('./assets/Letak.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#privjesak{
+    background-image: url('./assets/privjesak.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
