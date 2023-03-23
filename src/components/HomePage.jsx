@@ -4,7 +4,7 @@ import React from 'react'
 const HomePage = () => {
 
   return (
-    <div className='w-full h-[100vh] bg-center bg-cover top-0'>
+    <div className='w-full h-[100vh]'>
       <div className='h-screen w-full' id="backgroundPicture">
         <div className='mx-auto w-[90%] flex items-center justify-start h-screen
         xss:w-full xs:flex md:mt-0'>
