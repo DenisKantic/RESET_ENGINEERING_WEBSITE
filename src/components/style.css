@@ -47,3 +47,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#people{
+    background-image: url('./assets/people.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
