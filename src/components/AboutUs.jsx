@@ -3,13 +3,14 @@ import './style.css';
 
 const AboutUs = () => {
   return ( 
-    <div className='w-full min-h-[60vh] bg-[#f1f5f9]'>
+    <div className='w-full  bg-[#f1f5f9] 
+                    mdd:h-full lg:min-h-[60vh]'>
         <div className='mx-auto w-[80%] h-full flex items-center flex-row justify-center overflow-hidden 
                         xss:w-[95%] md:w-[90%]'>
       
         {/* left side */}
         <div className='w-[40%] h-[35vh] 
-                        xss:hidden lg:block' id='people'>
+                        xss:hidden xl:block' id='people'>
          
         </div>
 
