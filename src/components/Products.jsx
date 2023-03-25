@@ -18,9 +18,9 @@ const Products = () => {
           </div>
            <div className='w-[400px] h-auto bg-[#e2e6ea] p-4 rounded-b-xl
            xss:w-full mb-10'>
-          <h1 className='p-1 bg-gray-400 table
+          <h1 className='px-2 bg-[#333e4e] table text-white rounded-md
                           xss:text-md text-2xl'>Print na majice</h1>
-            <p className='text-md mt-2 xss:text-sm md:text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
+            <p className='text-md mt-2 p-1 xss:text-sm md:text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
            </div>
           
@@ -31,9 +31,10 @@ const Products = () => {
             xss:w-full' id='vizitke' >
           </div>
            
-           <div className='w-[400px] h-auto bg-[#e2e6ea] p-4 rounded-b-xl
+           <div className='w-[400px] h-auto bg-[#e2e6ea] p-4 rounded-b-xl 
             xss:w-full mb-10'>
-           <h1 className='p-1 table bg-gray-400 xss:text-md text-2xl'>Vizit kartice</h1>
+           <h1 className='table rounded-md bg-[#333e4e] px-2 text-white
+                          xss:text-md text-2xl' >Vizit kartice</h1>
             <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
            </div>
@@ -46,7 +47,8 @@ const Products = () => {
            
            <div className='w-[400px] h-auto bg-[#e2e6ea] rounded-b-xl p-4
                  xss:w-full mb-10'>
-           <h1 className='p-1 table bg-gray-400 xss:text-md text-2xl'>Personalne solje</h1>
+           <h1 className='table rounded-md bg-[#333e4e] px-2 text-white
+                          xss:text-md text-2xl'>Personalne solje</h1>
             <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
           </div>
@@ -57,7 +59,8 @@ const Products = () => {
           </div>
            <div className='w-[400px] h-auto bg-[#e2e6ea] rounded-b-xl p-4
            xss:w-full mb-10 '>
-           <h1 className='p-1 table bg-gray-400 xss:text-md text-2xl'>PVC naljepnice</h1>
+           <h1 className='table rounded-md bg-[#333e4e] px-2 text-white
+                        xss:text-md text-2xl'>PVC naljepnice</h1>
             <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
            </div>
@@ -70,7 +73,8 @@ const Products = () => {
            
            <div className='w-[400px] h-auto bg-[#e2e6ea] rounded-b-xl p-4
            xss:w-full mb-10'>
-           <h1 className='p-1 table bg-gray-400 xss:text-md text-2xl'>Letak</h1>
+           <h1 className='table rounded-md bg-[#333e4e] px-2 text-white
+                          xss:text-md text-2xl'>Letak</h1>
             <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
            </div>
@@ -83,7 +87,8 @@ const Products = () => {
            
            <div className='w-[400px] h-auto rounded-b-xl p-4 bg-[#e2e6ea]
            xss:w-full mb-10 '>
-           <h1 className='p-1 table bg-gray-400 xss:text-md text-2xl'>Privjesci</h1>
+           <h1 className='table rounded-md bg-[#333e4e] px-2 text-white
+                        xss:text-md text-2xl'>Privjesci</h1>
             <p className='text-md mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vitae.</p>
            </div>
            </div>

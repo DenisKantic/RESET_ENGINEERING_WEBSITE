@@ -1,12 +1,25 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import {AiOutlineMenu,AiOutlineClose,AiOutlineHome,AiOutlineInfoCircle, AiOutlineShoppingCart, AiOutlinePhone} from 'react-icons/ai';
 
-const HomePage = () => {
+const Navigation = () => {
 
   const [nav,setNav]=useState(false);
 
+  const [color,setColor] = useState(false);
+
+  
+
+  const changeBackground = () => {
+    if (window.scrollY >= 90){
+      setColor(true);
+    }else{
+          setColor(false);
+        }
+  }
+
+  window.addEventListener('scroll', changeBackground);
   return (
-    <div className='w-full mx-auto p-3 bg-[#0ea5e9] fixed top-0 left-0 right-0 z-10'>
+    <div className={color ? 'w-full mx-auto p-3  bg-[#ecf0f5] border-b-2 ease-in duration-200 fixed top-0 left-0 right-0 z-10' :'w-full mx-auto p-3  bg-[#f1f5f9] ease-out duration-150 fixed top-0 left-0 right-0 z-10'}>
         <div className='w-[90%] mx-auto flex justify-between'>
         <div className='xss: w-full flex md:w-auto'>
         
@@ -17,7 +30,7 @@ const HomePage = () => {
         <div className={nav ? 'bg-white w-[280px] fixed top-0 left-0 z-10 h-screen duration-300' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
         <AiOutlineClose className='absolute top-4 right-4 cursor-pointer' 
                     onClick={()=> setNav(!nav)}  size={30}></AiOutlineClose> 
-                    <h1 className='text-xl  p-4'>Reset Inžinjering</h1>
+                    <h1 className='text-xl text-[#354a67] p-4'>Reset Inžinjering</h1>
 
 
                     <ul className='flex flex-col items-start p-4 text-black text-lg mt-[50px]'>
@@ -33,11 +46,11 @@ const HomePage = () => {
     
         </div>
         <div className='flex items-center justify-center xss:hidden md:flex'> 
-           <ul className='flex flex-row text-white text-md'>
+           <ul className='flex flex-row text-[#354a67] text-md'>
             <li className='mr-2 cursor-pointer
                           hover:text-red-400'>POČETNA</li>
             <li className='mr-2 cursor-pointer'>O NAMA</li>
-            <li className='mr-2 cursor-pointer'>USLUGE</li>
+            <li className='mr-2 cursor-pointer'>PROIZVODI</li>
             <li className='mr-2 cursor-pointer'>KONTAKT</li>
            </ul>
         </div>
@@ -46,4 +59,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default Navigation

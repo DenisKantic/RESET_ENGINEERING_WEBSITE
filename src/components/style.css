@@ -1,8 +1,8 @@
-#backgroundPicture{
-    background-image: url('./assets/pattern_react.png');
-    background-size: 70%;
+#backPicture{
+    background-image: url('./assets/resetBack.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
+    background-position: center;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 430px) {

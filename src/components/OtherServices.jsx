@@ -22,7 +22,7 @@ const OtherServices = () => {
       {data.map(item =>{
         return <SwiperSlide key={item.id} 
         className="w-full bg-cover bg-center h-screen" style={{backgroundImage: `url(${item.image})`}}>
-          <div>
+          <div className='flex flex-col justify-center items-center h-full'>
           <h1>{item.header}</h1>
           <h1>{item.price}</h1>
           </div>
