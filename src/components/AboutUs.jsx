@@ -16,14 +16,14 @@ const AboutUs = () => {
 
 
         {/* right side */}
-        <div className='w-[50%] h-full 
+        <div className='w-[50%] h-full cursor-default
                         xss:w-full md:w-full xl:w-[50%]'>
         <h1 className='text-5xl mb-10 mt-10 text-center 
                         xss:text-4xl'>O nama</h1>
 
         {/* blocks of text */}
         <div className='pt-10 
-                        xss:grid grid-cols-2 md:grid align-start '>
+                        xss:grid grid-cols-2 md:grid align-start cursor-default '>
          
           <div className='w-[80%] p-3 
                           xss:w-full'>
