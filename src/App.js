@@ -8,12 +8,12 @@ import Contact from './components/Contact.jsx';
 function App() {
   return (
     <>
-     <Navigation />
-     <HomePage />
-     <AboutUs />
-     <Products />
-     <OtherServices />
-     <Contact />
+    <Navigation/>
+    <HomePage/>
+    <AboutUs/>
+    <Products/>
+    <OtherServices/>
+    <Contact/>
     </>
   );
 }
