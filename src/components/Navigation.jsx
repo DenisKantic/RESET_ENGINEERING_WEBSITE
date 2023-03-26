@@ -8,7 +8,6 @@ const Navigation = () => {
   const [color,setColor] = useState(false);
 
   
-
   const changeBackground = () => {
     if (window.scrollY >= 90){
       setColor(true);
@@ -56,6 +55,7 @@ const Navigation = () => {
             <li className='mr-2 cursor-pointer
                           hover:font-[600]'>KONTAKT</li>
            </ul>
+
         </div>
        </div>
     </div>
