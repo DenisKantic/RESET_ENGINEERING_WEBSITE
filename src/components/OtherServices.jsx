@@ -31,7 +31,7 @@ const OtherServices = () => {
       })}
     </Swiper>
 
-    <h1 className='text-center p-10 xss:text-sm md:text-lg lg:text-2xl cursor-default'>Imate nešto drugo na umu? Kontaktirajte nas i ponudit ćemo Vam najbolje rješenje uz najbolju cijenu i kvalitetu. <br />
+    <h1 className='text-center p-10 xss:text-md md:text-lg lg:text-2xl cursor-default'>Imate nešto drugo na umu? Kontaktirajte nas i ponudit ćemo Vam najbolje rješenje uz najbolju cijenu i kvalitetu. <br />
     Za sve naše buduće klijente, nudimo besplatne uzorke, kako bi se uvjerili u naš kvalitet!</h1>
       </div>
   )

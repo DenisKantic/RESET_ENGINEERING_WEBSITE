@@ -4,7 +4,7 @@ import React from 'react'
 const HomePage = () => {
 
   return (
-    <div className='w-full h-[90vh] bg-[#354a67]' id="backPicture">
+    <div className='w-full h-screen bg-[#354a67]' id="backPicture">
       <div className='h-screen w-full'>
         <div className='mx-auto w-[90%] flex items-center justify-start h-screen
         xss:w-full xs:flex md:mt-0'>
@@ -19,8 +19,8 @@ const HomePage = () => {
             </div>
             <div className='flex mt-10 w-full
             xss:flex-col items-center mx-auto justify-center md:block'>
-                <button className='bg-[#f1f5f9] text-[#334155] rounded-md p-3 w-[160px] text-lg xss:mr-0 mb-5 md:mb-0 hover:font-[600]'>KO SMO MI?</button>
-                <button className='bg-[#455163] text-white p-3 rounded-md w-[160px] text-lg md:ml-5 hover:font-[600] hover:w-auto'>NAŠI PROIZVODI</button>
+                <button className='bg-[#f1f5f9] text-[#334155] rounded-md p-3 w-[160px] text-lg xss:mr-0 mb-5 md:mb-0 hover:font-[600]'><a href="#aboutUs">KO SMO MI?</a> </button>
+                <button className='bg-[#455163] text-white p-3 rounded-md w-[160px] text-lg md:ml-5 hover:font-[600] hover:w-auto'><a href="#products">NAŠI PROIZVODI</a></button>
             </div>
             </div>
         </div>

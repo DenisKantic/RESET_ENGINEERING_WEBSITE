@@ -33,10 +33,10 @@ const Navigation = () => {
 
 
                     <ul className='flex flex-col items-start p-4 text-black text-lg mt-[50px]'>
-            <li className='mr-2 flex items-center py-2'><AiOutlineHome size={22} className='mr-5'/>POČETNA</li>
-            <li className='mr-2 flex items-center py-2'><AiOutlineInfoCircle size={22} className='mr-5' />O NAMA</li>
-            <li className='mr-2 flex items-center py-2'><AiOutlineShoppingCart size={22} className='mr-5' /> USLUGE</li>
-            <li className='mr-2 flex items-center py-2'><AiOutlinePhone  size={22} className='mr-5'/>KONTAKT</li>
+            <li className='mr-2 flex items-center py-2'><AiOutlineHome size={22} className='mr-5'/><a href="#backPicture" onClick={()=> setNav(!nav)}>POČETNA</a></li>
+            <li className='mr-2 flex items-center py-2'><AiOutlineInfoCircle size={22} className='mr-5' /><a href="#aboutUs" onClick={()=> setNav(!nav)}>O NAMA</a></li>
+            <li className='mr-2 flex items-center py-2'><AiOutlineShoppingCart size={22} className='mr-5' /><a href="#products" onClick={()=> setNav(!nav)}>PROIZVODI</a></li>
+            <li className='mr-2 flex items-center py-2'><AiOutlinePhone  size={22} className='mr-5'/><a href="#contact" onClick={()=> setNav(!nav)}>KONTAKT</a></li>
            </ul>
 
 
@@ -47,13 +47,13 @@ const Navigation = () => {
         <div className='flex items-center justify-center xss:hidden md:flex'> 
            <ul className='flex flex-row text-[#354a67] text-md'>
             <li className='mr-2 cursor-pointer
-                          hover:font-[600]'>POČETNA</li>
+                          hover:font-[600]'><a href="#backPicture">POČETNA</a></li>
             <li className='mr-2 cursor-pointer
-                          hover:font-[600]'>O NAMA</li>
+                          hover:font-[600]'><a href="#aboutUs">O NAMA</a></li>
             <li className='mr-2 cursor-pointer
-                          hover:font-[600]'>PROIZVODI</li>
+                          hover:font-[600]'><a href="#products">PROIZVODI</a></li>
             <li className='mr-2 cursor-pointer
-                          hover:font-[600]'>KONTAKT</li>
+                          hover:font-[600]'><a href="#contact">KONTAKT</a></li>
            </ul>
 
         </div>
