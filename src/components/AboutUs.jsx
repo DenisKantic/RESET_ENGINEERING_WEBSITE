@@ -4,7 +4,7 @@ import './style.css';
 const AboutUs = () => {
   return ( 
     <div className='w-full  bg-[#f1f5f9] 
-                    mdd:h-full lg:min-h-[60vh]'>
+                    mdd:h-full lg:min-h-[60vh]' id="aboutUs">
         <div className='mx-auto w-[80%] h-full flex items-center flex-row justify-center overflow-hidden 
                         xss:w-[95%] md:w-[90%]'>
       
@@ -17,8 +17,8 @@ const AboutUs = () => {
 
         {/* right side */}
         <div className='w-[50%] h-full cursor-default
-                        xss:w-full md:w-full xl:w-[50%]'>
-        <h1 className='text-5xl mb-10 mt-10 text-center 
+                        xss:w-full md:w-full xl:w-[50%] '>
+        <h1 className='text-5xl mb-10 mt-[80px] text-center 
                         xss:text-4xl'>O nama</h1>
 
         {/* blocks of text */}
