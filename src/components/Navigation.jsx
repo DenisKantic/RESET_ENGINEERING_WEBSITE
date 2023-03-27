@@ -25,8 +25,8 @@ const Navigation = () => {
         <AiOutlineMenu className='mr-2 cursor-pointer md:hidden' size={25} onClick={()=> setNav(!nav)}></AiOutlineMenu>
         <h1 className='xss: ml-5 text-lg md:hidden cursor-default'>Reset Inžinjering</h1>
         <h1 className='xss:hidden md:block text-lg cursor-default'>RESET INŽINJERING </h1>
-        <div className={ nav ? 'bg-black/80 w-full fixed h-screen z-10 top-0 left-0 duration-300' : 'fixed'}>
-        <div className={nav ? 'bg-white w-[280px] fixed top-0 left-0 z-10 h-screen duration-300' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
+        <div className={ nav ? 'bg-black/80 w-full fixed h-screen z-10 top-0 left-0 duration-200' : 'fixed'}>
+        <div className={nav ? 'bg-white w-[280px] fixed top-0 left-0 z-10 h-screen duration-200' : 'fixed left-[-100%] w-[-300px] top-0 duration-300'}>
         <AiOutlineClose className='absolute top-4 right-4 cursor-pointer' 
                     onClick={()=> setNav(!nav)}  size={30}></AiOutlineClose> 
                     <h1 className='text-xl text-[#354a67] p-4'>Reset Inžinjering</h1>
