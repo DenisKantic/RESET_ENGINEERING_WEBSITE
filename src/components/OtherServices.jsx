@@ -24,7 +24,7 @@ const OtherServices = () => {
         className="w-full bg-cover bg-center h-screen bg-no-repeat" style={{backgroundImage: `url(${item.image})`}}>
           <div className='flex flex-col justify-center items-center h-full'>
           <h1 className='text-center text-white font-[600]
-                        xss: text-xl w-[70%] md:text-2xl w-[80%] lg:text-4xl'>{item.header}</h1>
+                        xss: text-2xl w-[70%] sm:text-3xl md:text-4xl w-[80%] lg:text-5xl w-[60%]'>{item.header}</h1>
           <h1>{item.price}</h1>
           </div>
           </SwiperSlide>
