@@ -29,7 +29,7 @@ const AboutUs = () => {
                           xss:w-full'>
             <h1 className='xss:text-2xl lg:text-3xl'>Ko smo mi?</h1>
             <p className='mt-3 text-left 
-                          xss:text-md font-[300]'>RESET INŽINJERING je kompanija koja zapošljava isključivo osobe sa invaliditetom. Osnivač kompanije je nevladino udruženje RE-SET
+                          xss:text-md font-[300]'>"RESET INŽINJERING" je kompanija koja zapošljava isključivo osobe sa invaliditetom. Osnivač kompanije je nevladino udruženje "RE-SET"
                           koja okuplja mlade invalidne osobe na području TK. </p>
           </div>
           <div className='w-[80%] p-3 
