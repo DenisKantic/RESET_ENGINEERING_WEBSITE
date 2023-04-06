@@ -6,7 +6,7 @@ const Products = () => {
     <div className='w-full min-h-[100vh] bg-[#f1f5f9] overflow-hidden' id="products">
         <div className='flex flex-col mx-auto w-[80%] p-4
         xss:h-full'>
-            <h1 className='text-center text-4xl mt-[80px] cursor-default'>Naši proizvodi</h1>
+            <h1 className='text-center text-4xl mt-10 mb-10 cursor-default'>Naši proizvodi</h1>
 
             <div className='grid gap-10 mt-10 xss:grid-cols-1 sm:grid-cols-2 xl:grid-cols-3  cursor-default'>
           {/*container*/}
