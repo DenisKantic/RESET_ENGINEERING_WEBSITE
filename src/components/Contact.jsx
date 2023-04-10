@@ -8,7 +8,7 @@ const Contact = () => {
 
       {/* wrapper */}
       <div className='w-[90%] mx-auto flex justify-center items-center mt-10
-      xss: flex-col w-[100%] h-[100vh] md:flex-row md:h-[60vh] lg:w-[90%]'>
+      xss: flex-col w-[100%] h-[100vh] md:flex-row md:h-[60vh] lg:w-[90%] '>
 
        
       <iframe className='h-[60vh] w-[60%] xss:hidden mdd:block' 
